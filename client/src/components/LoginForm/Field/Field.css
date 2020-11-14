@@ -1,0 +1,56 @@
+.field {
+  margin: 0.3em;
+  position: relative;
+  margin-right: 1rem;
+  width: 10rem;
+}
+.field-input {
+  width: 100%;
+  padding: 0.7em;
+  font-size: 0.5em;
+  border: none;
+  border-radius: 15px;
+  height: 2.5em;
+  background-color: transparent;
+  border: 2px solid black;
+}
+.field-input:focus {
+  border-color: #f17f42;
+}
+.field-input:focus + .field-label {
+  color: #f17f42;
+}
+.field-input::placeholder {
+  font-size: 0.6rem;
+}
+
+.field--has-content .field-label {
+  display: block;
+}
+
+.field--has-content .field-input {
+  padding: 1.4em 0.7em 0.4em;
+}
+
+.field-label {
+  display: none;
+  position: absolute;
+  top: 0.2rem;
+  left: 0.7rem;
+  font-weight: 700;
+  color: #999;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  animation: labelSlideUpAndShow 0.3s;
+}
+@keyframes labelSlideUpAndShow {
+  0% {
+    transform: translateY(1em);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0em);
+    opacity: 1;
+  }
+}

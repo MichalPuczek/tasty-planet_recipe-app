@@ -1,0 +1,46 @@
+.recipes-filters {
+  width: 20vw;
+  margin-top: 14vh;
+  border-right: 2px solid #e5d80e;
+}
+
+.filters-info {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 1.5rem;
+}
+
+.filters-info h3 {
+  margin-left: 3vw;
+}
+
+.filters-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 40%;
+  padding: 0.5vw;
+  margin: 0.5vw;
+  border: none;
+  background: none;
+  font-weight: bolder;
+  cursor: pointer;
+  border-radius: 5px;
+  background: white;
+  color: black;
+  border: 2px solid black;
+}
+
+.button:hover {
+  width: 43%;
+}
+
+.button--active {
+  background: black;
+  color: white;
+  outline: none;
+}

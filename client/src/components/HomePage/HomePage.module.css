@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.wrapper-search-bar {
+  background: white;
+  display: flex;
+  align-items: center;
+  transform: translateY(-10%);
+}
+
+.wrapper-background {
+  background-image: url("../../assets/pexels-wendy-wei-4000421.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50%;
+}
